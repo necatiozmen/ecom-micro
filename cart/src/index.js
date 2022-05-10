@@ -2,4 +2,4 @@ import faker from "faker";
 
 const cartText = `<div>${faker.random.number()}</div>`
 
-document.querySelector('#cart-dev').innerHTML;
+document.querySelector('#dev-cart').innerHTML = cartText
